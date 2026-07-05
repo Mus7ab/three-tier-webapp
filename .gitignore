@@ -17,3 +17,4 @@ crash.*.log
 # OS/editor junk
 .DS_Store
 .vscode/
+.deb
