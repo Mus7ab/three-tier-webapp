@@ -100,7 +100,7 @@ CI/CD: any push to a feature branch + PR into `main` automatically runs `terrafo
 
 ## Cost Estimate
 
-Built and tested entirely within AWS's Free Plan (credits-based, not the legacy 12-month free tier). Approximate on-demand costs if run beyond free coverage: ALB ~$16-20/month + LCU usage, 2x t3.micro EC2 ~$15/month combined, RDS db.t3.micro Single-AZ ~$12-15/month, S3/DynamoDB state storage negligible (<$1/month).
+Actual cost incurred while building this project (verified via AWS Billing Console, 7 days of active development including ALB, 2x EC2, RDS, and CI/CD testing): **$1.94**, fully covered by AWS's Free Plan credits (zero out-of-pocket cost). Approximate on-demand costs if run beyond free coverage: ALB ~$16-20/month + LCU usage, 2x t3.micro EC2 ~$15/month combined, RDS db.t3.micro Single-AZ ~$12-15/month, S3/DynamoDB state storage negligible (<$1/month).
 
 ## Teardown
 
