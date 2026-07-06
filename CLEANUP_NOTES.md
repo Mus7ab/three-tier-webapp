@@ -1,0 +1,1 @@
+TODO: Delete duplicate/orphaned vpc-080f45397e4fc4f18 (created accidentally by CI before remote state was set up on Day 7). Confirmed no cost - VPC/subnets/IGW only, no ALB/EC2/RDS. Investigate exact dependency via AWS Support or console resource map at final teardown.
